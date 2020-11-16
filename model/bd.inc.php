@@ -1,5 +1,7 @@
 <?php	
 
+include_once 'configuration.inc.php';
+
 /*
 *	Conexión a la base de datos
 *	E:
@@ -14,7 +16,7 @@ function connection() {
 *	Comprueba login
 *	E:
 *	S: booleano: conexión correcta
-*	SQL: select * from usuarios WHERE tfno = $_POST['usuario'] AND pass = $_POST['pass']
+*	SQL: select * from usuarios WHERE tfno = $_POST['usuario'] AND pass = $_POST['pass'];
 */
 function login_ok()	{
 	
@@ -37,7 +39,11 @@ function guardar_mensaje() {
 *	Funcion que modifica el perfil
 *	E:
 *	S:
-*	SQL: UPDATE into usuario ...
+*	SQL: UPDATE into usuario SET
+			nick = $_POST['nombre'],
+			avatar = $_POST['b1'],
+			estado = $_POST['estado']
+			WHERE tfno = $_POST['usuario'];
 */
 function perfil_modificado() {
 	return true;
@@ -47,7 +53,7 @@ function perfil_modificado() {
 *	Comprueba el máximo número de caracteres del texto del estado del 
 * 	usuario, configurable 
 *	E:
-*	S: booleano: número correcto
+*	S: booleano: ($_POST['estado'] <= $LONG_TEXTO)
 *	SQL: 
 */
 function maximo_caracteres_estado() {

@@ -117,10 +117,10 @@ button {
 	text-align: center;
 }
 
-.config ul li a:hover {	//hover para cambiar estilo al pasar por encima el raton
-	background: #006699;
+.config ul li a:hover {	/*hover para cambiar estilo al pasar por encima el raton*/
+	background-color: #006699;
 	color: #aaa;
-	transition: background 1s, color 1s;
+	transition: background-color 1s, color 1s;
 }
 
 
@@ -157,10 +157,10 @@ button {
 	text-align: center;
 }
 
-.menu ul li a:hover {	//hover para cambiar estilo al pasar por encima el raton
-	background: #006699;
+.menu ul li a:hover {	/*hover para cambiar estilo al pasar por encima el raton*/
+	background-color: #006699;
 	color: #aaa;
-	transition: background 1s, color 1s;
+	transition: background-color 1s, color 1s;
 }
 
 .pag {
@@ -654,10 +654,10 @@ button {
 	margin: 10px;
 }
 
-.leer_mas:hover {	//hover para cambiar estilo al pasar por encima el raton
-	background: #006699;
+.leer_mas:hover {	/*hover para cambiar estilo al pasar por encima el raton*/
+	background-color: #006699;
 	color: #aaa;
-	transition: background 1s, color 1s;
+	transition: background-color 1s, color 1s;
 }
 
 #info {
