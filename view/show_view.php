@@ -5,6 +5,15 @@
 *	E:
 *	S:
 *	SQL: select logo, texto from usuario
+
+
+
+
+pon esto '> para el admin despues del ultimo li
+ if(isset($_SESSION['admin'])){
+			introduce el html que quieras mostrar al admin con echo
+
+}			
 */
 function show_menu()
 {
@@ -24,16 +33,17 @@ function show_menu()
 				<li><a href="index.php?cmd=chats" class="btn">CHAT</a></li>
 				<li><a href="index.php?cmd=perfil" class="btn">Perfil</a></li>
 				<li><a href="index.php?cmd=ajustes" class="btn"><img src="view/images/ajustes.png" width=30 height=30 /></a></li>
-				<li><a href="index.php?cmd=logout" class="btn">Logout</a></li>';
+				<li><a href="index.php?cmd=logout" class="btn">Logout</a></li> ';
+		if ($_SESSION['admin']) {			//comprueba si es admin
 
-		if ($_SESSION['admin']) {
-			echo '<li><a href="index.php?cmd=recuperar" class="btn"><img src="view/images/ajustes.png" width=30 height=30 />Recuperar</a></li>
-				<li><a href="index.php?cmd=borrar" class="btn">Borrar conversación</a></li>';
+			echo '
+				<li><a href="index.php?cmd=recuperar" class="btn"><img src="view/images/ajustes.png" width=30 height=30 />Recuperar Contraseña</a></li>
+				<li><a href="index.php?cmd=borrarc" class="btn">Borrar Chat</a></li> ';
 		}
-
-		echo '</ul>
-				</nav>
-		   	</header>';
+		echo '
+			  </ul>
+			</nav>
+		   </header>';
 	} else {
 
 
@@ -50,7 +60,7 @@ function show_menu()
 *	Muestra el formulario de contacto
 *	E:
 *	S:
-*	SQL:
+*	SQL:SELECT * from usuarios where tfmo = $_POST['usuario'] AND pass = $_POST['pass']
 */
 function show_loging()
 {
@@ -87,31 +97,31 @@ function show_chats()
 	<section id="chats">
 	  <h3><a href="index.php?cmd=chat" class="btn">Fulanito
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br>
+	  <div></div><br><br>
 
 	  <h3><a href="index.php?cmd=chat" class="btn">Menganito
 	  <img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br>
+	  <div></div><br><br>
 
 	  <h3><a href="index.php?cmd=chat" class="btn">Mariano
 	  <img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br>
+	  <div></div><br><br>
 
 	  <h3><a href="index.php?cmd=chat" class="btn">Sefora
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br>
+	  <div></div><br><br>
 
 	  <h3><a href="index.php?cmd=chat" class="btn">Romero
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br>
+	  <div></div><br><br>
 
 	  <h3><a href="index.php?cmd=chat" class="btn">Goku
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br>
+	  <div></div><br><br>
 
 	  <h3><a href="index.php?cmd=chat" class="btn">Vegeta
 	  <img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br>
+	  <div></div><br><br>
 	</section>
 
 
@@ -130,14 +140,6 @@ function show_msg($msg)
 }
 
 
-function mostrar_usuario() {
-	echo '<section id="datosP">
-		<img src="view/images/chica.jpg" class="imgRedonda"/>
-		<h3>Fulanito</h3>
-		<i id="subt">Trabajando</i>
-	</section>';
-}
-
 /*
 * Muestra el chat del contacto con los mensajes y el estado del contacto
 * E:
@@ -150,9 +152,9 @@ function show_chat()
 	echo '
 
 			<section id="datosP">
-				<section class="datosU">
+			<section class="datosU">
 			<img src="view/images/chica.jpg" class="imgRedonda"/>
-			<h3><a href="index.php?cmd=@fulanito">Fulanito</a>: Trabajando</h3><br><br><br>
+			<h3><a href="index.php?cmd=@fulanito" >Fulanito: </a>Trabajando</h3><br><br><br>
 
 			<section class="mensajeU">
 			  <h4>Fulanito  19/05/20119  10:35</h4>
@@ -220,6 +222,23 @@ function show_chat()
 *	S:
 *	SQL:
 */
+
+
+function mostrar_usuario(){
+	echo '
+		<section id="datosP">
+
+			<img src="view/images/chica.jpg" class="imgRedonda"/>
+			<h3>Fulanito:<h3>
+			<i>Trabajando</i>
+	
+			<br>
+			<br><br>
+	
+		</section>';
+
+}
+
 function show_perfil()
 {
 	echo '
@@ -246,7 +265,7 @@ function show_perfil()
 }
 
 /*
-* Muestra los ajustes para cambiar el color del fondo de la pagina web
+* Muestra los ajustes para cambiar el color del fondo de la página web
 * E:
 * S
 * SQL:
@@ -262,8 +281,8 @@ function show_ajustes()
 
 	  <h4>Selecciona un color de fondo
 	  <select name="order" method="GET">
-				<option value="entry_select_todo">Rojo</option>
-				<option value="entry_select_pavo">Verde</option>
+				<option value="entry_select_todo">Verde</option>
+				<option value="entry_select_pavo">Rojo</option>
 				<option value="entry_select_memo">Azul</option>
 				<option value="entry_select_memo">Blanco</option>
 				<option value="entry_select_memo">Rosa</option>
