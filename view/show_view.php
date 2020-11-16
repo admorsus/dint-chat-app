@@ -97,31 +97,31 @@ function show_chats()
 	<section id="chats">
 	  <h3><a href="index.php?cmd=chat" class="btn">Fulanito
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br><br>
+	  <div></div><br>
 
 	  <h3><a href="index.php?cmd=chat" class="btn">Menganito
 	  <img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br><br>
+	  <div></div><br>
 
 	  <h3><a href="index.php?cmd=chat" class="btn">Mariano
 	  <img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br><br>
+	  <div></div><br>
 
 	  <h3><a href="index.php?cmd=chat" class="btn">Sefora
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br><br>
+	  <div></div><br>
 
 	  <h3><a href="index.php?cmd=chat" class="btn">Romero
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br><br>
+	  <div></div><br>
 
 	  <h3><a href="index.php?cmd=chat" class="btn">Goku
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br><br>
+	  <div></div><br>
 
 	  <h3><a href="index.php?cmd=chat" class="btn">Vegeta
 	  <img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br><br>
+	  <div></div><br>
 	</section>
 
 
@@ -284,6 +284,19 @@ function show_ajustes()
 				<option value="entry_select_todo">Verde</option>
 				<option value="entry_select_pavo">Rojo</option>
 				<option value="entry_select_memo">Azul</option>
+				<option value="entry_select_memo">Blanco</option>
+				<option value="entry_select_memo">Rosa</option>
+	  </select></h4>
+
+	  <button type="submit" name="guardar_color" >Guardar</button>
+
+	</form>
+
+  </section>
+
+';
+}
+option value="entry_select_memo">Azul</option>
 				<option value="entry_select_memo">Blanco</option>
 				<option value="entry_select_memo">Rosa</option>
 	  </select></h4>
