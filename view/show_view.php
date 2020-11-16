@@ -60,7 +60,7 @@ function show_menu()
 *	Muestra el formulario de contacto
 *	E:
 *	S:
-*	SQL:SELECT * from usuarios where tfmo = $_POST['usuario'] AND pass = $_POST['pass']
+*	SQL:SELECT * from usuarios where tfno = $_POST['usuario'] AND pass = $_POST['pass']
 */
 function show_loging()
 {

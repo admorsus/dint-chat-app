@@ -14,7 +14,7 @@ function connection() {
 *	Comprueba login
 *	E:
 *	S: booleano: conexión correcta
-*	SQL: select * from usuarios WHERE ...
+*	SQL: select * from usuarios WHERE tfno = $_POST['usuario'] AND pass = $_POST['pass']
 */
 function login_ok()	{
 	
@@ -25,7 +25,9 @@ function login_ok()	{
 *	Guardar el mensaje en la BD
 *	E:
 *	S:boolean: operación correcta
-*	SQL: INSERT into Mensaje (texto) values (?);	SELECT idMensaje, texto, fecha, hora, fichero, telefono from Mensajes
+*	SQL: INSERT into Escribe (texto, adjunto) values ($_POST['contestar'], $_POST['b1']);
+*		 
+*		 SELECT idMensaje, texto, fecha, hora, fichero, telefono from Escribe
 */
 function guardar_mensaje() {
 	return true;
