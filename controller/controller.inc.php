@@ -37,6 +37,10 @@ function show_content() {
 				case '@fulanito':
 					mostrar_usuario();
 				break;
+				case '@contacto':
+					contacto();
+				break;
+
 
 				default:
 					"Error, operación no permitida";

@@ -297,5 +297,19 @@ function show_ajustes()
 ';
 }
 
+function contacto(){
+	echo '
+		<section id="datosP">
+
+			<img src="view/images/descarga.jpg" class="imgRedonda"/>
+			<h3>Creado por Manuel Veiga y Miguel Bautista<h3>
+			<p>loren ipsu</p>
+	
+			<br>
+			<br><br>
+	
+		</section>';
+
+}
 
 ?>
