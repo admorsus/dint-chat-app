@@ -130,3 +130,6 @@ function actualizar_sesion()
 		}
 	}
 }
+
+
+?>
