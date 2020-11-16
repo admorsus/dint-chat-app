@@ -12,7 +12,7 @@ function show_content() {
 			show_loging();
 		}
 		else {
-			switch ($_GET['cmd']) {									// vemos qué llegó por el GET
+			switch ($_GET['cmd']) {									// vemos qué llegóó por el GET
 				case 'chats':
 					show_chats();
 					break;
