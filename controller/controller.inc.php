@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 /*
@@ -131,7 +130,6 @@ function actualizar_sesion()
 		}
 	}
 }
-=======
 <?php
 
 /*
@@ -293,4 +291,3 @@ function actualizar_sesion() {
 
 
 ?>
->>>>>>> 4d28f59db5720a99da1bc9a9e66a7b7f43fe19de
