@@ -55,7 +55,7 @@ function maximo_caracteres_estado() {
 /*
 *	Guarda el color seleccionado en el fichero de configuración
 *	E:
-*	S: 
+*	S: com
 *	SQL:
 
 */

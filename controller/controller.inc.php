@@ -37,7 +37,7 @@ function show_content() {
 				case '@fulanito':
 					mostrar_usuario();
 				break;
-				case '@contacto':
+				case 'contacto':
 					contacto();
 				break;
 
