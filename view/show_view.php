@@ -154,7 +154,7 @@ function show_chat()
 			<section id="datosP">
 			<section class="datosU">
 			<img src="view/images/chica.jpg" class="imgRedonda"/>
-			<h3><a href="index.php?cmd=@fulanito" >Fulanito: </a>Trabajando</h3><br><br><br>
+			<h3><a href="index.php?cmd=@fulanito" >Fulanito</a> <i class="texto-estado" id="estado">Trabajando</i></h3><br><br><br>
 
 			<section class="mensajeU">
 			  <h4>Fulanito  19/05/20119  10:35</h4>
@@ -229,8 +229,8 @@ function mostrar_usuario(){
 		<section id="datosP">
 
 			<img src="view/images/chica.jpg" class="imgRedonda"/>
-			<h3>Fulanito:<h3>
-			<i>Trabajando</i>
+			<h3>Fulanito<h3>
+			<i class="texto-estado">Trabajando</i>
 	
 			<br>
 			<br><br>

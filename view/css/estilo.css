@@ -470,12 +470,6 @@ button {
 	
 }
 
-#subt {
-	color: grey;
-	font-style: italic;
-	font-weight: bold;
-}
-
 #publicaciones {
 	margin-left: 310px;
 }
@@ -494,6 +488,12 @@ button {
 .datosU p {
 	margin-top: 50px;
 	margin-left: 60px;
+}
+
+.texto-estado {
+	color: grey;
+	font-style: italic;
+	font-weight: bold;
 }
 
 .mensajeU {
