@@ -296,16 +296,6 @@ function show_ajustes()
 
 ';
 }
-option value="entry_select_memo">Azul</option>
-				<option value="entry_select_memo">Blanco</option>
-				<option value="entry_select_memo">Rosa</option>
-	  </select></h4>
 
-	  <button type="submit" name="guardar_color" >Guardar</button>
 
-	</form>
-
-  </section>
-
-';
-}
+?>
