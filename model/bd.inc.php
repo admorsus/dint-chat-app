@@ -23,6 +23,7 @@ function login_ok()	{
 	return true;
 }
 
+
 /*
 *	Guardar el mensaje en la BD
 *	E:

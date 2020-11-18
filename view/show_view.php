@@ -217,13 +217,11 @@ function show_chat()
 }
 
 /*
-*	Muestra la página modificar el perfil
-*	E:
-*	S:
-*	SQL:
+* Muestra el perfil de un usuario
+* E:
+* S:
+* SQL: select nick, avatar, estado from usuario
 */
-
-
 function mostrar_usuario(){
 	echo '
 		<section id="datosP">
@@ -239,6 +237,12 @@ function mostrar_usuario(){
 
 }
 
+/*
+*	Muestra la página modificar el perfil
+*	E:
+*	S:
+*	SQL:
+*/
 function show_perfil()
 {
 	echo '
@@ -296,6 +300,13 @@ function show_ajustes()
 
 ';
 }
+
+/*
+* Muestra la página de acerca de
+* E:
+* S:
+* SQL:
+*/
 
 function contacto(){
 	echo '
