@@ -93,32 +93,32 @@ function show_chats()
 
 	echo '
 
-	<sec<a>tion id="chats">
-	  <h3>Fulanito
+	<section id="chats">
+	  <h3><a href="index.php?cmd=chat" class="btn">Fulanito
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <a><div></div><br>
+	  <div></div><br>
 
-	  <h3>Menganito
+	  <h3><a href="index.php?cmd=chat" class="btn">Menganito
 	  <img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
-	  <a><div></div><br>
+	  <div></div><br>
 
-	  <h3>Mariano
+	  <h3><a href="index.php?cmd=chat" class="btn">Mariano
 	  <img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
-	  <a><div></div><br>
+	  <div></div><br>
 
-	  <h3>Sefora
+	  <h3><a href="index.php?cmd=chat" class="btn">Sefora
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <a><div></div><br>
+	  <div></div><br>
 
-	  <h3>Romero
+	  <h3><a href="index.php?cmd=chat" class="btn">Romero
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <a><div></div><br>
+	  <div></div><br>
 
-	  <h3>Goku
+	  <h3><a href="index.php?cmd=chat" class="btn">Goku
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <a><div></div><br>
+	  <div></div><br>
 
-	  <h3>Vegeta
+	  <h3><a href="index.php?cmd=chat" class="btn">Vegeta
 	  <img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
 	  <div></div><br>
 	</section>
