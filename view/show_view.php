@@ -352,7 +352,20 @@ function difusion(){
 	<h3><a><input type="checkbox"/> Vegeta
 	<img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
 	<div></div><br>
-  </section>';
+	
+	<form id="vb" action="index.php" method="post" role="form">
+
+				<textarea id="ta" placeholder="Enviar mensaje de difusion" rows="5" cols="40" required="" ></textarea><br><br>
+
+				<span>
+				  Elegir archivo<input type="file" name="b1" multiple>
+				</span>
+	   
+				<button type="submit" name="contestar" >Enviar</button><br><br>
+
+			</form>
+	</section>
+  ';
 	
 }
 
