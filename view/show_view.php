@@ -230,9 +230,14 @@ function mostrar_usuario(){
 			<i class="texto-estado">Trabajando</i>
 	
 			<br>
-			<br><br>
-	
-		</section>';
+			<br><br>';
+	if ($_SESSION['admin']) {
+		echo ' <form id="vb" action="index.php" method="post" role="form">
+			<button id="bloquear-btn" type="submit" name="borrar-usuario" >Borrar usuario</button><br><br>
+
+		</form>';
+	}
+	echo '	</section>';
 
 }
 

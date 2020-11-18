@@ -470,6 +470,11 @@ button {
 	
 }
 
+#bloquear-btn {
+	float: right;
+	margin: 0 50px 10px 50px;
+}
+
 #publicaciones {
 	margin-left: 310px;
 }

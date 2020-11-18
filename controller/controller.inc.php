@@ -98,6 +98,10 @@ function show_content()
 			} else {
 				show_msg("Error no realizar el backup");
 			}
+		} elseif (isset($_POST['borrar-usuario'])) {
+			show_msg("F");
+			show_chats();
+
 		}
 	}
 }
