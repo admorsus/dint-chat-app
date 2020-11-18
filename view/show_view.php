@@ -37,8 +37,7 @@ function show_menu()
 		if ($_SESSION['admin']) {			//comprueba si es admin
 
 			echo '
-				<li><a href="index.php?cmd=recuperar" class="btn"><img src="view/images/ajustes.png" width=30 height=30 />Recuperar Contraseña</a></li>
-				<li><a href="index.php?cmd=borrarc" class="btn">Borrar Chat</a></li> ';
+				<li><a href="index.php?cmd=difusion" class="btn">Mensaje de difusión</a></li> ';
 		}
 		echo '
 			  </ul>
@@ -249,13 +248,13 @@ function show_perfil()
 
 		<section id="perfil">
 
-	<form id="vb" action="index.php" method="post" role="form">
+		<form id="vb" action="index.php" method="post" role="form">
 
-	  <input id="nombre" type="text" name="nombre" placeholder="Escoge un nick de usuario" required="" ><br><br>
+	 	 <input id="nombre" type="text" name="nombre" placeholder="Escoge un nick de usuario" required="" ><br><br>
 		
-			  <span>
-			Cambiar imagen de perfil<input type="file" name="b1" multiple>
-	  </span><br><br>
+			<span>
+				Cambiar imagen de perfil<input type="file" name="b1" multiple>
+	  		</span><br><br>
 
 	  <textarea id="ta" rows="5" cols="40" required="" >I am working</textarea><br><br>
 	   
@@ -321,6 +320,40 @@ function contacto(){
 	
 		</section>';
 
+}
+function difusion(){
+	echo '
+	
+		<section id="datosP">
+		
+		<section class="mensajeU">
+			  <h4>Fulanito  19/05/20119  10:35</h4>
+			  <p>En casa</p>
+			  <div><div>
+			</section>
+
+			<section class="mensajeU">
+			  <h4>Fulanito  19/05/20119  10:30</h4>
+			  <p>Mira a coco</p>
+			  <img src="view/images/perro.jpg" width=100 height=100 />
+			  <div><div>
+			</section>
+
+			<section class="mensajeU">
+			  <h4>Menganito  19/05/20119  10:28</h4>
+			  <p>Voy a salir</p>
+			  <div><div>
+			</section>
+
+			<section class="mensajeU">
+			  <h4>Menganito  19/05/20119  10:20</h4>
+			  <p>Estoy esperando a mi madre</p>
+			  <div><div>
+			</section>
+		
+		
+		</section>';
+	
 }
 
 ?>

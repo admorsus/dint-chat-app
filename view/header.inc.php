@@ -19,6 +19,4 @@ function show_header(){
 			<body>
 				<div id="principal">';
 }
-
-
 ?>

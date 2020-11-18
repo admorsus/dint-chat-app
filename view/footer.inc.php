@@ -18,5 +18,4 @@ function show_footer(){ // muestra el footer de la pagina
 	</body>
 	</html>';
 }
-
 ?>
