@@ -63,9 +63,9 @@ function maximo_caracteres_estado() {
 /*
 *	Guarda el color seleccionado en el fichero de configuración
 *	E:
-*	S: com
+*	S: 
 *	SQL:
-
+*		$BACK_COLOR = $_POST['']
 */
 function color_seleccionado() {
 	return true;
