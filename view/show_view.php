@@ -23,7 +23,7 @@ function show_menu()
 		echo '<header>
 
 			<section id="estado">
-			  <img src="view/images/f.jpg" class="imgRedonda"/><br>
+			  <img src="view/images/pngegg.png" class="imgRedonda"/><br>
 			  <p>I am working</p>
 			</section>
 
