@@ -93,32 +93,32 @@ function show_chats()
 
 	echo '
 
-	<section id="chats">
-	  <h3><a href="index.php?cmd=chat" class="btn">Fulanito
+	<sec<a>tion id="chats">
+	  <h3>Fulanito
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br>
+	  <a><div></div><br>
 
-	  <h3><a href="index.php?cmd=chat" class="btn">Menganito
+	  <h3>Menganito
 	  <img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br>
+	  <a><div></div><br>
 
-	  <h3><a href="index.php?cmd=chat" class="btn">Mariano
+	  <h3>Mariano
 	  <img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br>
+	  <a><div></div><br>
 
-	  <h3><a href="index.php?cmd=chat" class="btn">Sefora
+	  <h3>Sefora
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br>
+	  <a><div></div><br>
 
-	  <h3><a href="index.php?cmd=chat" class="btn">Romero
+	  <h3>Romero
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br>
+	  <a><div></div><br>
 
-	  <h3><a href="index.php?cmd=chat" class="btn">Goku
+	  <h3>Goku
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br>
+	  <a><div></div><br>
 
-	  <h3><a href="index.php?cmd=chat" class="btn">Vegeta
+	  <h3>Vegeta
 	  <img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
 	  <div></div><br>
 	</section>
@@ -324,35 +324,35 @@ function contacto(){
 function difusion(){
 	echo '
 	
-		<section id="datosP">
-		
-		<section class="mensajeU">
-			  <h4>Fulanito  19/05/20119  10:35</h4>
-			  <p>En casa</p>
-			  <div><div>
-			</section>
+	<section id="chats">
+	<h3><a><input type="checkbox"/> Fulanito
+	<img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
+	<div></div><br>
 
-			<section class="mensajeU">
-			  <h4>Fulanito  19/05/20119  10:30</h4>
-			  <p>Mira a coco</p>
-			  <img src="view/images/perro.jpg" width=100 height=100 />
-			  <div><div>
-			</section>
+	<h3><a><input type="checkbox"/> Menganito
+	<img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
+	<div></div><br>
 
-			<section class="mensajeU">
-			  <h4>Menganito  19/05/20119  10:28</h4>
-			  <p>Voy a salir</p>
-			  <div><div>
-			</section>
+	<h3><a><input type="checkbox"/> Mariano
+	<img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
+	<div></div><br>
 
-			<section class="mensajeU">
-			  <h4>Menganito  19/05/20119  10:20</h4>
-			  <p>Estoy esperando a mi madre</p>
-			  <div><div>
-			</section>
-		
-		
-		</section>';
+	<h3><a><input type="checkbox"/> Sefora
+	<img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
+	<div></div><br>
+
+	<h3><a><input type="checkbox"/> Romero
+	<img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
+	<div></div><br>
+
+	<h3><a><input type="checkbox"/> Goku
+	<img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
+	<div></div><br>
+
+	<h3><a><input type="checkbox"/> Vegeta
+	<img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
+	<div></div><br>
+  </section>';
 	
 }
 
