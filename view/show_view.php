@@ -31,15 +31,10 @@ function show_menu()
 
 			  <ul>
 				<li><a href="index.php?cmd=chats" class="btn">CHAT</a></li>
+				<li><a href="index.php?cmd=difusion" class="btn">Difusión</a></li>
 				<li><a href="index.php?cmd=perfil" class="btn">Perfil</a></li>
 				<li><a href="index.php?cmd=ajustes" class="btn"><img src="view/images/ajustes.png" width=30 height=30 /></a></li>
-				<li><a href="index.php?cmd=logout" class="btn">Logout</a></li> ';
-		if ($_SESSION['admin']) {			//comprueba si es admin
-
-			echo '
-				<li><a href="index.php?cmd=difusion" class="btn">Mensaje de difusión</a></li> ';
-		}
-		echo '
+				<li><a href="index.php?cmd=logout" class="btn">Logout</a></li>
 			  </ul>
 			</nav>
 		   </header>';
@@ -149,7 +144,6 @@ function show_msg($msg)
 function show_chat()
 {
 	echo '
-
 			<section id="datosP">
 			<section class="datosU">
 			<img src="view/images/chica.jpg" class="imgRedonda"/>
@@ -208,10 +202,8 @@ function show_chat()
 			</form>
 
 		  </section>
-		 </section> 
-
-		
-
+		 </section>
+		 
 		';
 }
 

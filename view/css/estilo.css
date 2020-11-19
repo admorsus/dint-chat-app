@@ -80,12 +80,12 @@ button {
 }
 
 .menu {
-	width: 900px; overflow: hidden;
+	width: 900px;
 	height: 65px;
 	border: 0px solid #ccc;
 	margin-top: 50px;
 	margin-bottom: 20px;
-	margin-left: 250px;
+	margin-left: 200px;
 	text-align: center;
 	border-radius: 5px 5px 5px 5px;
 
@@ -149,12 +149,16 @@ button {
 
 .menu ul li a {
 	text-decoration: none;
-	padding: 30px 20px 10px 20px;
+	padding: 15px 20px 15px 20px;
 	border: 0px solid #ccc;
+	border-radius: 5px;
 	color: #117A65;
-	margin-bottom: 5px;
 	margin-right: 1px;
 	text-align: center;
+}
+
+.menu ul li a img {
+	vertical-align: text-top;
 }
 
 .menu ul li a:hover {	/*hover para cambiar estilo al pasar por encima el raton*/
@@ -256,6 +260,9 @@ button {
 }
 
 #chats {
+	border: 1px solid #7FFFD4;
+	border-radius: 5px 5px 5px 5px;
+
 	background: #FFFFFF;
 	margin-top: 50px;
 	margin-left: 250px;
@@ -472,7 +479,7 @@ button {
 
 #bloquear-btn {
 	float: right;
-	margin: 0 50px 10px 50px;
+	margin: 0 25% 0 0;
 }
 
 #publicaciones {
@@ -493,6 +500,21 @@ button {
 .datosU p {
 	margin-top: 50px;
 	margin-left: 60px;
+}
+
+.datosU a {
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(0, 135, 135);
+	padding: 5px;
+	border-radius: 5px;
+
+}
+
+.datosU a:hover {
+	background-color: #006699;
+	color: #fff;
+	transition: background-color 1s, color 1s;
 }
 
 .texto-estado {
