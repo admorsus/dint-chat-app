@@ -30,7 +30,7 @@ function show_menu()
 			<nav class="menu">
 
 			  <ul>
-				<li><a href="index.php?cmd=chats" class="btn">CHAT</a></li>
+				<li><a href="index.php?cmd=chats" class="btn">Chat</a></li>
 				<li><a href="index.php?cmd=difusion" class="btn">Difusión</a></li>
 				<li><a href="index.php?cmd=perfil" class="btn">Perfil</a></li>
 				<li><a href="index.php?cmd=ajustes" class="btn"><img src="view/images/ajustes.png" width=30 height=30 /></a></li>
@@ -115,7 +115,7 @@ function show_chats()
 
 	  <h3><a href="index.php?cmd=chat" class="btn">Vegeta
 	  <img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
-	  <div></div><br>
+	  <!-- <div></div><br> -->
 	</section>
 
 
@@ -203,7 +203,7 @@ function show_chat()
 
 		  </section>
 		 </section>
-		 
+
 		';
 }
 
@@ -309,11 +309,9 @@ function contacto(){
 		<section id="datosP">
 
 			<img src="view/images/descarga.jpg" class="imgRedonda"/>
-			<h3>Creado por Manuel Veiga y Miguel Bautista<h3>
-			<p>loren ipsum</p>
-	
 			<br>
-			<br><br>
+			Creado por <h3>Manuel Veiga y Miguel Bautista</h3>
+			<br>
 	
 		</section>';
 
