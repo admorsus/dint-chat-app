@@ -147,29 +147,30 @@ function show_chat()
 			<section id="datosP">
 			<section class="datosU">
 			<img src="view/images/chica.jpg" class="imgRedonda"/>
-			<h3><a href="index.php?cmd=@fulanito" >Fulanito</a> <i class="texto-estado" id="estado">Trabajando</i></h3><br><br><br>
+			<h3><a href="index.php?cmd=@fulanito" >Fulanito</a>
+			<i class="texto-estado" id="estado">Trabajando</i></h3><br><br><br>
 
 			<section class="mensajeU">
-			  <h4>Fulanito  19/05/20119  10:35</h4>
+			  <h4>Fulanito  19/05/2020  10:35</h4>
 			  <p>En casa</p>
 			  <div><div>
 			</section>
 
 			<section class="mensajeU">
-			  <h4>Fulanito  19/05/20119  10:30</h4>
+			  <h4>Fulanito  19/05/2020  10:30</h4>
 			  <p>Mira a coco</p>
 			  <img src="view/images/perro.jpg" width=100 height=100 />
 			  <div><div>
 			</section>
 
 			<section class="mensajeU">
-			  <h4>Menganito  19/05/20119  10:28</h4>
+			  <h4>Menganito  19/05/2020  10:28</h4>
 			  <p>Voy a salir</p>
 			  <div><div>
 			</section>
 
 			<section class="mensajeU">
-			  <h4>Menganito  19/05/20119  10:20</h4>
+			  <h4>Menganito  19/05/2020  10:20</h4>
 			  <p>Estoy esperando a mi madre</p>
 			  <div><div>
 			</section>
