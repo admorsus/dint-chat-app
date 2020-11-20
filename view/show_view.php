@@ -321,31 +321,31 @@ function difusion(){
 	echo '
 	
 	<section id="chats">
-	<h3><a><input type="checkbox"/> Fulanito
+	<h3><a><label><input type="checkbox"/> Fulanito
 	<img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
 	<div></div><br>
 
-	<h3><a><input type="checkbox"/> Menganito
+	<h3><a><label><input type="checkbox"/> Menganito</label>
 	<img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
 	<div></div><br>
 
-	<h3><a><input type="checkbox"/> Mariano
+	<h3><a><label><input type="checkbox"/> Mariano</label>
 	<img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
 	<div></div><br>
 
-	<h3><a><input type="checkbox"/> Sefora
+	<h3><a><label><input type="checkbox"/> Sefora</label>
 	<img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
 	<div></div><br>
 
-	<h3><a><input type="checkbox"/> Romero
+	<h3><a><label><input type="checkbox"/> Romero</label>
 	<img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
 	<div></div><br>
 
-	<h3><a><input type="checkbox"/> Goku
+	<h3><a><label><input type="checkbox"/> Goku</label>
 	<img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
 	<div></div><br>
 
-	<h3><a><input type="checkbox"/> Vegeta
+	<h3><a><label><input type="checkbox"/> Vegeta</label>
 	<img src="view/images/rojo.png" width=10 height=10 /></a></h3><br>
 	<div></div><br>
 	

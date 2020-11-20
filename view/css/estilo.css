@@ -740,13 +740,15 @@ footer {
   text-align: center;
 }
 
-label {
-  font-size: 20px;
-}
-
 .valor input {
   display: none;
 }
+
+/*
+label {
+	font-size: 20px;
+}
+  
 
 label {
   color: grey;
@@ -760,3 +762,4 @@ label:hover ~ label {
 .valor input:checked ~ label {
   color: orange;
 }
+*/
