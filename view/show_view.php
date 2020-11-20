@@ -23,7 +23,7 @@ function show_menu()
 		echo '<header>
 
 			<section id="estado">
-			  <img src="view/images/pngegg.png" class="imgRedonda"/><br>
+			  <img src="view/images/hiclipart.com.png" class="imgRedonda"/><br>
 			  <p>I am working</p>
 			</section>
 
@@ -356,7 +356,7 @@ function difusion(){
 				  Elegir archivo<input type="file" name="b1" multiple>
 				</span>
 	   
-				<button type="submit" name="contestar" >Enviar</button><br><br>
+				<button type="submit" name="difusion" >Enviar</button><br><br>
 
 			</form>
 	</section>

@@ -102,6 +102,18 @@ function show_content()
 			show_msg("F");
 			show_chats();
 
+		} else if (isset($_POST['difusion'])) {
+			if (tamaño_img()) {
+
+				if (guardar_mensaje()) {
+					show_msg("Difusión enviada");
+					show_chats();
+				} else {
+					show_msg("Error no enviado");
+				}
+			} else {
+				show_msg("Error, imagen demasiado grande");
+			}
 		}
 	}
 }
