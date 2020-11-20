@@ -62,7 +62,7 @@ function show_loging()
 	echo '
 
 
-		<section id="slider">
+		<section id="slider" class="contenedor">
 			<form action="index.php" method="post" role="form">
 
 					<h2>LOG IN</h2>
@@ -88,7 +88,7 @@ function show_chats()
 
 	echo '
 
-	<section id="chats">
+	<section id="chats" class="contenedor">
 	  <h3><a href="index.php?cmd=chat" class="btn">Fulanito
 	  <img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
 	  <div></div><br>
@@ -144,7 +144,7 @@ function show_msg($msg)
 function show_chat()
 {
 	echo '
-			<section id="datosP">
+			<section id="datosP" class="contenedor">
 			<section class="datosU">
 			<img src="view/images/chica.jpg" class="imgRedonda"/>
 			<h3><a href="index.php?cmd=@fulanito" >Fulanito</a>
@@ -216,7 +216,7 @@ function show_chat()
 */
 function mostrar_usuario(){
 	echo '
-		<section id="datosP">
+		<section id="datosP" class="contenedor">
 
 			<img src="view/images/chica.jpg" class="imgRedonda"/>
 			<h3>Fulanito<h3>
@@ -244,7 +244,7 @@ function show_perfil()
 {
 	echo '
 
-		<section id="perfil">
+		<section id="perfil" class="contenedor">
 
 		<form id="vb" action="index.php" method="post" role="form">
 
@@ -276,7 +276,7 @@ function show_ajustes()
 
 	echo '
 
-  <section id="ajustes">
+  <section id="ajustes" class="contenedor">
 
 	<form id="vb" action="index.php" method="post" role="form">
 
@@ -307,7 +307,7 @@ function show_ajustes()
 
 function contacto(){
 	echo '
-		<section id="datosP">
+		<section id="datosP" class="contenedor">
 
 			<img src="view/images/descarga.jpg" class="imgRedonda"/>
 			<br>
@@ -320,7 +320,7 @@ function contacto(){
 function difusion(){
 	echo '
 	
-	<section id="chats">
+	<section id="chats" class="contenedor">
 	<h3><a><label><input type="checkbox"/> Fulanito
 	<img src="view/images/verde.png" width=10 height=10 /></a></h3><br>
 	<div></div><br>

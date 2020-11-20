@@ -2,10 +2,10 @@ body, #principal {
 	background: #F0FFF0;
 }
 
-
 #principal {
 	width: 900px;
-	height: auto; overflow: hidden;
+	height: auto;
+	overflow: hidden;
 	border: 0px solid #000;
 	margin: auto;
 	border-radius: 10px 10px 10px 10px;
@@ -25,11 +25,9 @@ h1 {
 input {
 	background: #F0FFF0;
 	border-radius: 3px 3px 3px 3px;
-  padding: 0.7em;
-  margin-bottom: 0.5rem;
+	padding: 0.7em;
+	margin-bottom: 0.5rem;
 }
-
-
 
 #slider input {
 	width: 300px;
@@ -59,16 +57,12 @@ input {
 	width: 300px;
 }
 
-
 button {
 	width: 325px;
 	height: 40px;
 	border-radius: 7px 7px 7px 7px;
 	background: #7fe0a9;
 }
-
-
-
 
 #logo {
 	margin-top: 50px;
@@ -88,17 +82,16 @@ button {
 	margin-left: 200px;
 	text-align: center;
 	border-radius: 5px 5px 5px 5px;
-
 }
 
 .config {
-	width: 900px; overflow: hidden;
+	width: 900px;
+	overflow: hidden;
 	height: 80px;
 	margin-top: 30px;
 	margin-left: 50px;
 	margin-bottom: 30px;
 	text-align: center;
-	
 }
 
 .config ul li {
@@ -117,14 +110,14 @@ button {
 	text-align: center;
 }
 
-.config ul li a:hover {	/*hover para cambiar estilo al pasar por encima el raton*/
+.config ul li a:hover {
+	/*hover para cambiar estilo al pasar por encima el raton*/
 	background-color: #006699;
 	color: #fff;
 	transition: background-color 1s, color 1s;
 }
 
-
-#mySearch{
+#mySearch {
 	border-radius: 5px 5px 5px 5px;
 	margin-right: 30px;
 	margin-bottom: 20px;
@@ -139,12 +132,11 @@ button {
 	margin-bottom: 10px;
 	margin-right: 1px;
 	text-align: center;
-}	
+}
 
 .menu ul li {
 	list-style: none;
 	float: left;
-
 }
 
 .menu ul li a {
@@ -161,14 +153,16 @@ button {
 	vertical-align: text-top;
 }
 
-.menu ul li a:hover {	/*hover para cambiar estilo al pasar por encima el raton*/
+.menu ul li a:hover {
+	/*hover para cambiar estilo al pasar por encima el raton*/
 	background-color: #006699;
 	color: #fff;
 	transition: background-color 1s, color 1s;
 }
 
 .pag {
-	width: 400px; overflow: hidden;
+	width: 400px;
+	overflow: hidden;
 	height: 50px;
 	border: 0px solid #ccc;
 	margin-top: 20px;
@@ -179,7 +173,6 @@ button {
 .pag ul li {
 	list-style: none;
 	float: left;
-
 }
 
 .pag ul li a {
@@ -220,50 +213,48 @@ button {
 	border-bottom: 1px solid #7fe0a9;
 }
 
-#slider {
-	background: #FFFFFF;
+.contenedor {
+	background: white;
 	border: 1px solid #7FFFD4;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+#slider {
+	background: white;
 	margin-top: 30px;
 	margin-left: 250px;
 	margin-bottom: 70px;
 	width: 400px;
 	height: auto;
 	padding: 10px;
-	border-radius: 5px 5px 5px 5px;
 	text-align: center;
 }
 
 #ajustes {
-	background: #FFFFFF;
-	border: 1px solid #7FFFD4;
+	background: white;
 	margin-top: 60px;
 	margin-left: 250px;
 	margin-bottom: 70px;
 	width: 400px;
 	height: auto;
 	padding: 10px;
-	border-radius: 5px 5px 5px 5px;
 	text-align: center;
 }
 
 #perfil {
-	background-color: #FFFFFF;
-	border: 1px solid #7FFFD4;
+	background: white;
 	margin-top: 60px;
 	margin-left: 50px;
 	margin-bottom: 70px;
 	width: auto;
 	height: auto;
 	padding: 10px;
-	border-radius: 5px 5px 5px 5px;
 	text-align: center;
 }
 
 #chats {
-	border: 1px solid #7FFFD4;
-	border-radius: 5px 5px 5px 5px;
-
-	background: #FFFFFF;
+	background: white;
 	margin-top: 50px;
 	margin-left: 250px;
 	margin-bottom: 30px;
@@ -437,22 +428,30 @@ button {
 }
 
 .b1 h1 {
-
 	text-align: center;
 }
 
-
 .imgRedonda {
 	width: 80px;
-    height: 80px;
-    border-radius: 5%;
-    float: left;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 30px;
+	height: 80px;
+	border-radius: 5%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 30px;
 }
 
-/* header img {
+.contenedor .imgRedonda {
+	/* border: 1px solid white; */
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mensajeU img {
+	border: 1px solid white;
+	outline: 1px solid lightgray;
+}
+
+/*	header img {
 	background: #116400;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
@@ -460,18 +459,19 @@ button {
 } */
 
 .imgRedondaP {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    float: left;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 0px; 
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 0px;
 }
 
 #datosP {
 	width: 600px;
-	height: auto; overflow: hidden;
+	height: auto;
+	overflow: hidden;
 	border: 0px solid;
 	margin-top: 50px;
 	background: #FFFFFF;
@@ -482,9 +482,9 @@ button {
 
 #datosPE {
 	width: 700px;
-	height: auto; overflow: hidden;
+	height: auto;
+	overflow: hidden;
 	margin-top: 20px;
-	
 }
 
 #bloquear-btn {
@@ -503,7 +503,8 @@ button {
 .datosU {
 	width: 500px;
 	margin-left: 40px;
-	height: auto; overflow: hidden;
+	height: auto;
+	overflow: hidden;
 	float: left;
 }
 
@@ -518,7 +519,6 @@ button {
 	color: rgb(0, 135, 135);
 	padding: 5px;
 	border-radius: 5px;
-
 }
 
 .datosU a:hover {
@@ -548,7 +548,8 @@ button {
 
 .valor {
 	width: 100px;
-	height: auto; overflow: hidden;
+	height: auto;
+	overflow: hidden;
 	text-align: center;
 	margin-left: 100px;
 }
@@ -576,14 +577,16 @@ button {
 
 #informacion {
 	width: 900px;
-	height: auto; overflow: hidden;
+	height: auto;
+	overflow: hidden;
 	border: 0px solid;
 	margin-top: 10px;
 }
 
 .foto {
 	width: 100px;
-	height: auto; overflow: hidden;
+	height: auto;
+	overflow: hidden;
 	border: 0px solid #ccc;
 	float: left;
 	padding: 5px;
@@ -591,29 +594,27 @@ button {
 }
 
 .imgPerfil {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    float: left;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 30px; 
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 30px;
 }
 
 .infoPersonal {
 	width: 200px;
 	height: auto;
 	margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 30px;
-    float: left;
+	margin-left: 20px;
+	margin-right: 30px;
+	float: left;
 }
 
 .infoPersonal div {
 	border-bottom: 1px solid #7fe0a9;
 }
-
-
 
 #formulario {
 	background: #FFFFFF;
@@ -644,9 +645,6 @@ button {
 #izq {
 	margin-top: 10px;
 	margin-right: 900px;
-
-
-
 }
 
 #permisos {
@@ -669,10 +667,10 @@ button {
 	text-align: center;
 }
 
-
 .uno {
 	width: 280px;
-	height: auto; overflow: hidden;
+	height: auto;
+	overflow: hidden;
 	border: 0px solid #ccc;
 	float: left;
 	padding: 5px;
@@ -691,7 +689,8 @@ button {
 	margin: 10px;
 }
 
-.leer_mas:hover {	/*hover para cambiar estilo al pasar por encima el raton*/
+.leer_mas:hover {
+	/*hover para cambiar estilo al pasar por encima el raton*/
 	background-color: #006699;
 	color: #fff;
 	transition: background-color 1s, color 1s;
@@ -699,7 +698,8 @@ button {
 
 #info {
 	width: 900px;
-	height: auto; overflow: hidden;
+	height: auto;
+	overflow: hidden;
 	border: 0px solid #0c0c0c;
 	margin-top: 10px;
 }
@@ -715,33 +715,29 @@ footer {
 	width: 900px;
 	height: 100px;
 	text-align: center;
-	
 }
 
-#footer p{
+#footer p {
 	width: 500px;
 	background: #a6fccb;
 	border-radius: 10px 10px 10px 10px;
 }
 
-
 /****** Style Star Rating Widget *****/
-
-
 
 #form {
 	height: 40px;
 	width: 100px;
- 	margin: 0 auto;
- 	float: left;
+	margin: 0 auto;
+	float: left;
 }
 
 #form p {
-  text-align: center;
+	text-align: center;
 }
 
 .valor input {
-  display: none;
+	display: none;
 }
 
 /*
