@@ -51,7 +51,7 @@ function show_content()
 	} else {														// POST
 		if (isset($_POST['login'])) {
 
-			if (isset($_SESSION['user'])) {							// login ok en actualizar_sesion()
+			if (isset($_SESSION['user'] )) {							// login ok en actualizar_sesion()
 				show_chats();
 			} else {
 				show_loging();
