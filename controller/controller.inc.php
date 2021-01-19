@@ -7,7 +7,7 @@
 *	SQL:
 */
 function show_content()
-{
+{ 
 	if ($_SERVER['REQUEST_METHOD'] == 'GET') {	// GET
 		if (!isset($_GET['cmd'])) {									// carga inicial de la página
 			show_loging();

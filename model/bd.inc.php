@@ -50,10 +50,25 @@ function login_ok()    {
 	*		 SELECT idMensaje, texto, fecha, hora, fichero, telefono from Escribe
 	*/
 	function guardar_mensaje() {
+		include("configuration.inc.php");
+		$conexion = mysqli_connect($SERVER, $USER, $PASSWORD, $DB);
+		$emisor='"'.$_SESSION['user'].'"';
+		$receptor="622222222" ;
+		$texto='"'.$_POST['texto'].'"';
+		$fecha='CURDATE()';
+		$adjunto='"'.$_POST['b1'].'"';
+		if($conexion){
+			$sql= "INSERT into escribe  (emisor, receptor, texto, fecha, adjunto) values ($emisor,$receptor,$texto,$fecha,$adjunto)";
+			$resultado = mysqli_query($conexion,$sql);
+			if($resultado){
+				return true;
+			}else return false;
+		}
 		return true;
 	}
-
+	
 	/*
+	INSERT into escribe (emisor, receptor, texto, fecha, adjunto) values ("611111111", "622222222", "hola mundo asdfghjkl", CURDATE(), "")
 	*	Funcion que modifica el perfil
 	*	E:
 	*	S:

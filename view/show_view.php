@@ -182,7 +182,7 @@ function show_chat()
 		  <section class="contestar_mensaje">
 			<form id="vb" action="index.php" method="post" role="form">
 
-				<textarea id="ta" placeholder="Mensaje" rows="5" cols="40" required="" ></textarea><br><br>
+				<textarea id="ta" name="texto" placeholder="Mensaje" rows="5" cols="40" required="" ></textarea><br><br>
 
 				<span>
 				  Elegir archivo<input type="file" name="b1" multiple>
