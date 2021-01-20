@@ -64,7 +64,7 @@ function login_ok()    {
 				return true;
 			}else return false;
 		}
-		return true;
+	
 	}
 	
 	/*
@@ -79,8 +79,22 @@ function login_ok()    {
 			WHERE tfno = $_POST['usuario'];
 	*/
 	function perfil_modificado() {
-		return true;
+		include("configuration.inc.php");
+		$conexion = mysqli_connect($SERVER, $USER, $PASSWORD, $DB);
+		$estado='"'.$_POST['estado'].'"';
+		$avatar='"'.$_POST['b1'].'"';
+		$nick='"'.$_POST['nombre'].'"';
+		$tfo='"'.$_SESSION['user'].'"';
+		if($conexion){
+			$update="UPDATE usuario SET estado=$estado , avatar=$avatar, nick=$nick WHERE tfno=$tfo";
+			$resultado = mysqli_query($conexion,$update);
+		}
+		if($resultado){
+			return true;
+		}else return false;
 	}
+		
+	
 
 	/*
 *	Comprueba el máximo número de caracteres del texto del estado del 

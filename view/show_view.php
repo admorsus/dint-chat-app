@@ -254,7 +254,7 @@ function show_perfil()
 				Cambiar imagen de perfil<input type="file" name="b1" multiple>
 	  		</span><br><br>
 
-	  <textarea id="ta" rows="5" cols="40" required="" >I am working</textarea><br><br>
+	  <textarea id="ta" rows="5" name="estado" cols="40" required="" >I am working</textarea><br><br>
 	   
 	  <button type="submit" name="editar" >Modificar</button>
 
